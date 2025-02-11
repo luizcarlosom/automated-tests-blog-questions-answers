@@ -27,14 +27,14 @@ def ct003() -> None:
 
     xpath_tittle_question_field = '//*[@id="titulo"]'
     tittle_question_field = browser.find_element("xpath", xpath_tittle_question_field)
-    tittle_question_field.send_keys("Selenium")
+    tittle_question_field.send_keys("Cr7")
 
     xpath_description_question_field = '//*[@id="descricao"]'
     description_question_field = browser.find_element(
         "xpath", xpath_description_question_field
     )
     description_question_field.send_keys(
-        "Framework utilizado para criação de testes automatizados"
+        "Siiiiiiiiii"
     )
 
     xpath_create_question_button = '//*[@id="btnAbrirModal"]'

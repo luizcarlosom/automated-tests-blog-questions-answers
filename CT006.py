@@ -32,14 +32,14 @@ def ct006() -> None:
     def slow_arrow_down(times):
         for _ in range(times):
             select_button.send_keys(Keys.ARROW_DOWN)
-            time.sleep(0.5)
+            time.sleep(1.5)
         select_button.send_keys(Keys.ENTER)
-        time.sleep(1)
+        time.sleep(3)
 
     select_button.send_keys(Keys.ARROW_DOWN)
-    time.sleep(0.5)
+    time.sleep(1.5)
     select_button.send_keys(Keys.ENTER)
-    time.sleep(1)
+    time.sleep(3)
 
     slow_arrow_down(1)
     slow_arrow_down(2)
